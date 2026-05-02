@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/eiji/sbomcalc/internal/cli"
-	"github.com/eiji/sbomcalc/internal/engine"
-	"github.com/eiji/sbomcalc/internal/writer"
+	"github.com/aeg/sbomcalc/internal/cli"
+	"github.com/aeg/sbomcalc/internal/engine"
+	"github.com/aeg/sbomcalc/internal/writer"
 	"github.com/spf13/cobra"
 )
 

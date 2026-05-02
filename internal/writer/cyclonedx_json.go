@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func WriteCycloneDXJSON(w io.Writer, result model.QueryResult, version string) error {

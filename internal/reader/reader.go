@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 type Format int

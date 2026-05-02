@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func WriteSPDXJSON(w io.Writer, result model.QueryResult, version string) error {

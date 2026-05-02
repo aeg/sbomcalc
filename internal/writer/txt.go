@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func WriteQueryText(w io.Writer, result model.QueryResult) error {

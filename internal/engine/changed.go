@@ -1,6 +1,6 @@
 package engine
 
-import "github.com/eiji/sbomcalc/internal/model"
+import "github.com/aeg/sbomcalc/internal/model"
 
 func Changed(oldPath, newPath string) (model.DiffResult, error) {
 	result, err := Diff(oldPath, newPath)

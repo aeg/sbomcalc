@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func TestParseAndEvalLeftAssociative(t *testing.T) {

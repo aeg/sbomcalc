@@ -3,7 +3,7 @@ package expr
 import (
 	"fmt"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 type KeySetProvider func(path string) (model.KeySet, error)

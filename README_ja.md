@@ -48,7 +48,7 @@ SPDX JSONとCycloneDX JSONを読み取り、コンポーネントを集合とし
 ソースからインストールする場合:
 
 ```bash
-go install github.com/eiji/sbomcalc/cmd/sbomcalc@latest
+go install github.com/aeg/sbomcalc/cmd/sbomcalc@latest
 ```
 
 ローカルでビルドする場合:

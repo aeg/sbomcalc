@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func ParseLevel(l1 bool, l2 bool) (model.Level, error) {

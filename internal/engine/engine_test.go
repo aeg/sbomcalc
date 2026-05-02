@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func TestQueryL1Intersection(t *testing.T) {
