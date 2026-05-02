@@ -48,7 +48,7 @@ Output:
 From source:
 
 ```bash
-go install github.com/eiji/sbomcalc/cmd/sbomcalc@latest
+go install github.com/aeg/sbomcalc/cmd/sbomcalc@latest
 ```
 
 For local development:

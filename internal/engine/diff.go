@@ -3,8 +3,8 @@ package engine
 import (
 	"sort"
 
-	"github.com/eiji/sbomcalc/internal/model"
-	"github.com/eiji/sbomcalc/internal/reader"
+	"github.com/aeg/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/reader"
 )
 
 func Diff(oldPath, newPath string) (model.DiffResult, error) {

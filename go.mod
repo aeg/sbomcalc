@@ -1,4 +1,4 @@
-module github.com/eiji/sbomcalc
+module github.com/aeg/sbomcalc
 
 go 1.26.2
 

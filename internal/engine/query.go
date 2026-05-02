@@ -1,9 +1,9 @@
 package engine
 
 import (
-	"github.com/eiji/sbomcalc/internal/expr"
-	"github.com/eiji/sbomcalc/internal/model"
-	"github.com/eiji/sbomcalc/internal/reader"
+	"github.com/aeg/sbomcalc/internal/expr"
+	"github.com/aeg/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/reader"
 )
 
 func Query(expression string, level model.Level) (model.QueryResult, error) {

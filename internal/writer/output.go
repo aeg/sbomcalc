@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/eiji/sbomcalc/internal/cli"
-	"github.com/eiji/sbomcalc/internal/model"
+	"github.com/aeg/sbomcalc/internal/cli"
+	"github.com/aeg/sbomcalc/internal/model"
 )
 
 func WriteQuery(result model.QueryResult, specs []cli.OutputSpec) error {
