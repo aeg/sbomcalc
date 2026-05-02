@@ -1,0 +1,58 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "complex-old",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-openssl-111",
+      "name": "openssl",
+      "versionInfo": "1.1.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/openssl@1.1.1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-openssl-300",
+      "name": "openssl",
+      "versionInfo": "3.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/openssl@3.0.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-curl-781",
+      "name": "curl",
+      "versionInfo": "7.81.0"
+    },
+    {
+      "SPDXID": "SPDXRef-curl-800",
+      "name": "curl",
+      "versionInfo": "8.0.0"
+    },
+    {
+      "SPDXID": "SPDXRef-zlib-1211",
+      "name": "zlib",
+      "versionInfo": "1.2.11"
+    },
+    {
+      "SPDXID": "SPDXRef-log4j-2141",
+      "name": "log4j",
+      "versionInfo": "2.14.1"
+    },
+    {
+      "SPDXID": "SPDXRef-empty-version",
+      "name": "empty-version",
+      "versionInfo": ""
+    }
+  ]
+}
+

@@ -1,0 +1,36 @@
+# Binaries and build output
+/sbomcalc
+/bin/
+/dist/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage output
+*.test
+*.out
+coverage.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Local environment files
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local archives
+go*.linux-amd64.tar.gz
+

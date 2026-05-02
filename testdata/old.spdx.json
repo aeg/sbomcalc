@@ -1,0 +1,39 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "old",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-openssl",
+      "name": "openssl",
+      "versionInfo": "1.1.1",
+      "supplier": "Organization: OpenSSL",
+      "licenseConcluded": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/openssl@1.1.1"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aaa"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-curl",
+      "name": "curl",
+      "versionInfo": "7.81.0"
+    },
+    {
+      "SPDXID": "SPDXRef-log4j",
+      "name": "log4j",
+      "versionInfo": "2.14.1"
+    }
+  ]
+}
+
