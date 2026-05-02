@@ -24,8 +24,30 @@ func newRootCommand() *cobra.Command {
 		SilenceUsage:  true,
 		SilenceErrors: true,
 	}
-	root.AddCommand(newQueryCommand(), newDiffCommand(false), newDiffCommand(true))
+	root.AddCommand(newQueryCommand(), newDiffCommand(false), newDiffCommand(true), newCompletionCommand(root))
 	return root
+}
+
+func newCompletionCommand(root *cobra.Command) *cobra.Command {
+	cmd := &cobra.Command{
+		Use:   "completion",
+		Short: "Generate shell completion scripts",
+	}
+	cmd.AddCommand(&cobra.Command{
+		Use:   "bash",
+		Short: "Generate the bash completion script",
+		Long: `Generate the bash completion script.
+
+To load completion in the current shell:
+
+  source <(sbomcalc completion bash)
+
+To install completion permanently, write the output to a file loaded by bash.`,
+		RunE: func(cmd *cobra.Command, args []string) error {
+			return root.GenBashCompletion(os.Stdout)
+		},
+	})
+	return cmd
 }
 
 func newQueryCommand() *cobra.Command {

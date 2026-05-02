@@ -63,6 +63,7 @@ go build -o sbomcalc ./cmd/sbomcalc
 sbomcalc query [-l1|-l2] "EXPR" [-o FORMAT[=FILE] ...]
 sbomcalc diff old.json new.json [-o FORMAT[=FILE] ...]
 sbomcalc changed old.json new.json [-o FORMAT[=FILE] ...]
+sbomcalc completion bash
 ```
 
 `-o` を省略した場合は、`table` を標準出力に出力します。
@@ -153,6 +154,20 @@ sbomcalc query -l2 "new.json minus old.json" \
 ```
 
 標準出力に出力できる指定は1つだけです。同じコマンド内で同じ出力ファイルを複数回指定するとエラーになります。
+
+## Bash補完
+
+bash用の補完スクリプトを出力します。
+
+```bash
+sbomcalc completion bash
+```
+
+現在のシェルで読み込む例:
+
+```bash
+source <(sbomcalc completion bash)
+```
 
 ## 例
 
