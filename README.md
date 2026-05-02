@@ -63,6 +63,7 @@ go build -o sbomcalc ./cmd/sbomcalc
 sbomcalc query [-l1|-l2] "EXPR" [-o FORMAT[=FILE] ...]
 sbomcalc diff old.json new.json [-o FORMAT[=FILE] ...]
 sbomcalc changed old.json new.json [-o FORMAT[=FILE] ...]
+sbomcalc completion bash
 ```
 
 If `-o` is omitted, `table` is written to stdout.
@@ -153,6 +154,20 @@ sbomcalc query -l2 "new.json minus old.json" \
 ```
 
 Only one output may target stdout. Reusing the same output file in one command is an error.
+
+## Bash Completion
+
+Print the bash completion script:
+
+```bash
+sbomcalc completion bash
+```
+
+Load it in the current shell:
+
+```bash
+source <(sbomcalc completion bash)
+```
 
 ## Examples
 
